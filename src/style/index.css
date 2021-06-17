@@ -1,0 +1,103 @@
+.Sigin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  border: none;
+}
+
+.Sigin_Button {
+  border: 1px solid gray;
+  -webkit-box-shadow: 3px 3px 3px lightgray;
+          box-shadow: 3px 3px 3px lightgray;
+  border-radius: 10px;
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding: 10px 0px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all ease-in 0.3s;
+  transition: all ease-in 0.3s;
+}
+
+.Sigin_Button:hover {
+  background: transparent;
+  color: black;
+}
+
+.Sigin .Sigin_wrapInput {
+  width: 100%;
+}
+
+.Sigin .Sigin_wrapInput .error_message {
+  color: red;
+  font-size: x-small;
+}
+
+.FormHelper_Input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.wrapAuth {
+  border: 1px solid lightgray;
+  -webkit-box-shadow: 3px 3px 3px lightgray,-2px -3px 3px lightgray;
+          box-shadow: 3px 3px 3px lightgray,-2px -3px 3px lightgray;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.button_swap button {
+  border: 1px solid gray;
+  -webkit-box-shadow: 3px 3px 3px lightgray;
+          box-shadow: 3px 3px 3px lightgray;
+  border-radius: 10px;
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding: 10px 0px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all ease-in 0.3s;
+  transition: all ease-in 0.3s;
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 10px 0 0 10px;
+}
+
+.button_swap button:nth-child(2) {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.button_swap .noActive {
+  background-color: transparent;
+  color: black;
+}
+/*# sourceMappingURL=index.css.map */

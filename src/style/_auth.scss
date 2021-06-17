@@ -1,0 +1,26 @@
+@import './mixin';
+.wrapAuth{
+  @include border-style;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px
+}
+.button_swap{
+  button{
+    @include button-style;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px 0 0 10px;
+  }
+  button:nth-child(2){
+    border-radius: 0px 10px 10px 0px;
+  }
+  .noActive{
+    background-color: transparent;
+    color: black;
+  }
+  
+}

@@ -1,0 +1,26 @@
+@import './variable';
+@import './mixin';
+.Sigin{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  border: none;
+  &_Button{
+      @include button-style;
+      &:hover{
+        background: transparent;
+        color: $main-text-color;
+      }
+    
+   }
+  .Sigin_wrapInput{
+    width: 100%;
+    .error_message{
+      @include error-message;
+    }
+  }
+}
